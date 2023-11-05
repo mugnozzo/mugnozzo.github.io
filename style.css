@@ -1,0 +1,65 @@
+/* Variables */
+/* General */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #613583;
+  font-family: monospace;
+  font-size: 16px; }
+
+* {
+  box-sizing: border-box; }
+
+/* Header, Footer */
+header,
+footer {
+  height: 60px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* Grid */
+.grid {
+  display: grid;
+  gap: 10px;
+  /* gap between squares */
+  padding: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  /* Default: 2 squares per row */ }
+
+/* Grid items */
+.grid-item {
+  background-color: #4a1d6c;
+  position: relative;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ddd;
+  border-radius: 10px; }
+
+@media (min-aspect-ratio: 4/3) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 5%; } }
+
+@media (min-aspect-ratio: 3/2) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 10%; } }
+
+@media (min-aspect-ratio: 2/1) {
+  .grid {
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 20%; } }
+
+@media (min-aspect-ratio: 5/2) {
+  .grid {
+    grid-template-columns: repeat(6, 1fr); } }
+
+@media (min-aspect-ratio: 3/1) {
+  .grid {
+    grid-template-columns: repeat(7, 1fr); } }
