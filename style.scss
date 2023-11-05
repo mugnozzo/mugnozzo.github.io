@@ -89,32 +89,36 @@ header .logo {
 @media (min-aspect-ratio: 4/3) {
 	.grid {
 		grid-template-columns: repeat(3, 1fr);
+	}
+	.row {
 		width: 90%;
 	}
 }
 
 @media (min-aspect-ratio: 3/2) {
 	.grid {
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.row {
 		width: 80%;
 	}
 }
 
 @media (min-aspect-ratio: 2/1) {
 	.grid {
-		grid-template-columns: repeat(5, 1fr);
+		grid-template-columns: repeat(6, 1fr);
 	}
 }
 
 @media (min-aspect-ratio: 5/2) {
 	.grid {
-		grid-template-columns: repeat(5, 1fr); // 6
+		grid-template-columns: repeat(6, 1fr); // 6
 	}
 }
 
 @media (min-aspect-ratio: 3/1) {
 	.grid {
-		grid-template-columns: repeat(5, 1fr); // 7
+		grid-template-columns: repeat(6, 1fr); // 7
 	}
 }
 
@@ -124,9 +128,19 @@ header .logo {
 	}
 }
 
+/* Page - general style */
+body.page {
+	.main-content {
+		margin: 0 10px;
+	}
+}
+
 /* Page: bio */
 body.page-bio {
 	.bio-pic {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		img {
 			border-radius: 50%;
 			height: 200px;
