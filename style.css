@@ -42,7 +42,8 @@ header .logo {
   min-height: calc(100% - 120px);
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  flex-direction: column; }
 
 /* Grid */
 .grid {
