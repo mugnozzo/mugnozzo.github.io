@@ -10,6 +10,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: $c-purple;
+	color: $c-white;
 	font-family: monospace;
 	font-size: 16px;
 	min-height: 100%;
@@ -120,5 +121,16 @@ header .logo {
 @media (max-width: 768px) {
 	.grid {
 		width:100%;
+	}
+}
+
+/* Page: bio */
+body.page-bio {
+	.bio-pic {
+		img {
+			border-radius: 50%;
+			height: 200px;
+			width: auto;
+		}
 	}
 }
