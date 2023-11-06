@@ -4,7 +4,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #613583;
+  background-color: #74409c;
   color: #ddd;
   font-family: monospace;
   font-size: 16px;
@@ -24,7 +24,7 @@ a:hover {
 ul li {
   margin-top: 10px; }
   ul li b {
-    color: #35005e; }
+    color: #280046; }
 
 /* Header, Footer */
 header,
