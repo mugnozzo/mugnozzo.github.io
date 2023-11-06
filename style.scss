@@ -1,15 +1,16 @@
 /* Variables */
 $c-black: #333;
 $c-white: #ddd;
-$c-purple: #613583;
-$c-purple-dark: #4a1d6c;
+$c-purple-light: #613583;
+$c-purple: #4a1d6c;
+$c-purple-dark: #35005e;
 
 /* General */
 html,
 body {
 	margin: 0;
 	padding: 0;
-	background-color: $c-purple;
+	background-color: $c-purple-light;
 	color: $c-white;
 	font-family: monospace;
 	font-size: 16px;
@@ -32,6 +33,9 @@ a:hover {
 ul {
 	li {
 		margin-top: 10px;
+		b {
+			color: $c-purple-dark;
+		}
 	}
 }
 
@@ -75,7 +79,7 @@ header .logo {
 
 /* Grid items */
 .grid-item {
-	background-color: $c-purple-dark;
+	background-color: $c-purple;
 	position: relative;
 	aspect-ratio: 1 / 1;
 	display: flex;

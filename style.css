@@ -23,6 +23,8 @@ a:hover {
 
 ul li {
   margin-top: 10px; }
+  ul li b {
+    color: #35005e; }
 
 /* Header, Footer */
 header,
