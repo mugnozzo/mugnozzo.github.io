@@ -75,33 +75,37 @@ header .logo {
     justify-content: center;
     align-items: center; }
 
-@media (min-aspect-ratio: 4/3) {
+@media screen and (min-aspect-ratio: 4/3) {
   .grid {
     grid-template-columns: repeat(3, 1fr); }
   .row {
     width: 90%; } }
 
-@media (min-aspect-ratio: 3/2) {
+@media screen and (min-aspect-ratio: 3/2) {
   .grid {
     grid-template-columns: repeat(3, 1fr); }
   .row {
     width: 80%; } }
 
-@media (min-aspect-ratio: 2/1) {
+@media screen and (min-aspect-ratio: 2/1) {
   .grid {
     grid-template-columns: repeat(6, 1fr); } }
 
-@media (min-aspect-ratio: 5/2) {
+@media screen and (min-aspect-ratio: 5/2) {
   .grid {
     grid-template-columns: repeat(6, 1fr); } }
 
-@media (min-aspect-ratio: 3/1) {
+@media screen and (min-aspect-ratio: 3/1) {
   .grid {
     grid-template-columns: repeat(6, 1fr); } }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .grid {
     width: 100%; } }
+
+@media screen and (max-width: 992px) and (orientation: landscape) {
+  .grid-item {
+    font-size: .7rem; } }
 
 /* Page - general style */
 body.page .main-content {
