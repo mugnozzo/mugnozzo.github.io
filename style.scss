@@ -59,6 +59,16 @@ header .logo {
 	width:auto;
 }
 
+/* Main content */
+.main-content {
+	min-height: calc(100% - 120px);
+	display: flex;
+	margin: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
 /* Grid */
 .grid {
 	display: grid;
@@ -137,14 +147,8 @@ header .logo {
 
 /* Page - general style */
 body.page {
-	/* Main content */
 	.main-content {
-		min-height: calc(100% - 120px);
-		margin: 10px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-direction: column;
+		margin: 0 10px;
 	}
 }
 .title {
