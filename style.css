@@ -113,6 +113,9 @@ header .logo {
 body.page .main-content {
   margin: 0 10px; }
 
+.title {
+  text-align: center; }
+
 /* Page: bio */
 body.page-bio .bio-pic {
   display: flex;
