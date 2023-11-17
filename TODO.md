@@ -3,3 +3,4 @@
 	+ og
 	+ description
 	+ other SEO stuff
+- Add favicon
